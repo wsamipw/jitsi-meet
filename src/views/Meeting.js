@@ -22,7 +22,6 @@ function Meeting(props) {
       try {
         const api = new window.JitsiMeetExternalAPI(domain, {
           ...jitsiOptions,
-          jwt:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkiLCJuYW1lIjoiYWRtaW4ifQ.35xNhJ2SdChN1J5-zT6Y8IRi4gwxvyYws97auBpxECg",
           roomName: roomName,
           parentNode: document.getElementById("jitsi-container"),
           userInfo:{

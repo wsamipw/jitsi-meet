@@ -1,5 +1,4 @@
 export const domain = "meet.techkunja.com.np";
-// export const domain = "meet.jit.si";
 export const jitsiOptions = {
   interfaceConfigOverwrite: {
     filmStripOnly: false,
@@ -10,7 +9,6 @@ export const jitsiOptions = {
   },
   configOverwrite: {
     disableSimulcast: false,
-    enableUserRolesBasedOnToken: true,
   },
 };
 
